@@ -3,6 +3,9 @@ name: Create Flutter Project
 on:
   workflow_dispatch: # manual trigger
 
+permissions:
+  contents: write   # allow push to repo
+
 jobs:
   create:
     runs-on: ubuntu-latest
